@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;    
+    background-color: #f0f0f0;  
+    font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative; 
+    width: 575px;
+    height: 385px; background-image: url('https://phantom-marca.unidadeditorial.es/c15a7c7bf6edc6caf7e6d628f7d2cd11/crop/0x0/899x506/resize/1320/f/webp/assets/multimedia/imagenes/2022/05/24/16533999819773.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    border-radius: 5em;
+
+}
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: .5em;
+}
+button:hover {
+    background-color: #FCD34Df0;
+    color: black;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 100px;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Cursed Timer UL';
+    src: url('fonts/CursedTimerUl.ttf') format('truetype');
+}
+
+#home-Score, #guest-Score {
+    font-family: 'Cursed Timer UL';
+    background-color: black;
+    color: red;
+    width: 80px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    border-radius: 10px;
+}
