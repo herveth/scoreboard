@@ -11,7 +11,8 @@ body {
     justify-content: space-around;
     position: relative; 
     width: 575px;
-    height: 385px; background-image: url('https://phantom-marca.unidadeditorial.es/c15a7c7bf6edc6caf7e6d628f7d2cd11/crop/0x0/899x506/resize/1320/f/webp/assets/multimedia/imagenes/2022/05/24/16533999819773.jpg');
+    height: 385px; 
+    background-image: url('https://phantom-marca.unidadeditorial.es/c15a7c7bf6edc6caf7e6d628f7d2cd11/crop/0x0/899x506/resize/1320/f/webp/assets/multimedia/imagenes/2022/05/24/16533999819773.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
@@ -23,7 +24,7 @@ button {
     color: white;
     border-radius: .5em;
 }
-button:hover {
+button: hover {
     background-color: #FCD34Df0;
     color: black;
 }
